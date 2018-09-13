@@ -1,3 +1,16 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  } 
+
+ * {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,6 +104,7 @@ h2 {
 .gallery-images {
     position: relative;
     max-width: 100%;
+    float: left;
 }
 
 .text {
