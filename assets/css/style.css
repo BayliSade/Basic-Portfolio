@@ -87,3 +87,13 @@ h2 {
     background-color: #777777;
     border-top: solid #4aaaa5 3px;
 }
+
+.gallery-images {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 115px;
+}
