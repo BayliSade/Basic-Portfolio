@@ -90,10 +90,11 @@ h2 {
 
 .gallery-images {
     position: relative;
+    max-width: 100%;
 }
 
 .text {
     position: absolute;
     bottom: 20px;
-    padding-left: 115px;
+    text-align: center;
 }
