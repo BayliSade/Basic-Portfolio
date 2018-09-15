@@ -101,10 +101,17 @@ h2 {
     border-top: solid #4aaaa5 3px;
 }
 
+.portfolio {
+    border-bottom: 2px #777777 solid;
+    margin-bottom: 50px;
+}
+
 .gallery-images {
     position: relative;
     max-width: 100%;
     float: left;
+    padding-right: 40px;
+    margin-bottom: 50px;
 }
 
 .clear {
@@ -115,6 +122,9 @@ h2 {
     position: absolute;
     bottom: 20px;
     text-align: center;
+    background: #4aaaa5;
+    color: white;
+    width: 300px;
 }
 
 input[type=text], select, textarea {
