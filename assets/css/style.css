@@ -49,6 +49,10 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:hover {
+    color: #F67BC5;
+}
+
 h1 {
     color: white;
     margin-top: 0;
@@ -145,4 +149,20 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
+
+button {
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+
+button:hover {
+    background-color: #F67BC5;
+}
+
+form {
+    padding-bottom: 75px;
+}
+
 
