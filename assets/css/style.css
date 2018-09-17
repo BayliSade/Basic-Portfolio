@@ -112,6 +112,10 @@ h2 {
     margin-bottom: 50px;
 }
 
+.main-gallery {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .gallery-images {
     position: relative;
     max-width: 100%;
@@ -166,5 +170,23 @@ button:hover {
 form {
     padding-bottom: 75px;
 }
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background:  rgb(74, 170, 165);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery-images:hover .overlay {
+    opacity: 1;
+  }
 
 
