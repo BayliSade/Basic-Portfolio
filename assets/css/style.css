@@ -16,10 +16,12 @@ body {
     padding: 0;
     background-image: url("../images/dust_scratches.png");
 }
+
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
 }
+
 header {
     position: relative;
     border-bottom: solid #777777 2px;
