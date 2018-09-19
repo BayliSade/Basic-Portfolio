@@ -7,7 +7,7 @@
     height: 0;
   } 
 
- * {
+* {
     box-sizing: border-box;
 }
 
@@ -138,7 +138,7 @@ section {
     text-align: center;
   }
   
-  .gallery-images:hover .overlay {
+.gallery-images:hover .overlay {
     opacity: 1;
   } 
 
